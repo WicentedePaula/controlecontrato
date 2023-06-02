@@ -1,0 +1,166 @@
+﻿body {
+       background-color: #CCE6FF; 
+    
+}
+
+
+.geral {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #080857;
+    margin-bottom: 0;
+    height: 126px;
+}
+
+
+.logoTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#Image1 {
+    padding-top: 5px;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+
+#Label1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    float: right;
+    color:white;
+    margin-top: -10px;
+    margin-bottom: -20px;
+   
+    
+}
+
+.auto-style1 {
+    margin-top: 20px;
+    padding-right: 750px;
+}
+
+.auto-style1_controlecontrato {
+    margin-top:30px;
+    padding-right: 732px;
+}
+
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 79px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+
+}
+
+.alinhamento {
+  
+}
+
+
+.div_alinhamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.alinhamento2 {
+    margin-right:10px;
+    border: 3px solid black;
+    padding: 30px 35px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px black;
+}
+
+.alinhamento2 > h3 {
+    padding-left:50px;
+    color: #080857;
+    font-weight: 900;
+    margin:0;
+       
+}
+
+.alinhamento3 > h3 {
+  /*  margin-top:15px;       */
+  /*   padding-bottom:185px; */
+    
+   /* padding-left: 50px; */
+    color: #080857;
+    font-weight: 900;
+    
+}
+
+.textfield_alin {
+
+ display:flex ;
+    
+}
+
+
+
+.alinhamento3 {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px black;
+    width: 100%;
+}
+
+
+/*Informações do contrato*/
+#Text_Acao, #TextCodFornecedor, #Text_Fornecedor, #dta_contrato, #Text_Gestor, #TxtCodGestor, #TextNroLoja, #Text_ValorContrato, #Text_SaldoContrato {
+   padding-top:13px;
+   text-align:center;
+}
+
+#Text_codFornecedor_acao, #Text_nomeFornecedorAcao, #Text_acaoEdicao, #Text_observacao, #Text_ValorUsado, #TextNronf {
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:28px;
+    padding-top: 10px;
+  
+}
+
+#drpList_Lojas {
+    margin-top: 8px; 
+     
+        
+}
+
+.conteudo {
+    width:80%;
+    margin: auto;
+}
+
+
+.icones{
+    font-size: 60px;
+}
+

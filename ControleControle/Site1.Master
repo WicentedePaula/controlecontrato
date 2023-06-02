@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ControleControle.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Portal de Contratos</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="css/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 73px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <header>
+            <asp:ContentPlaceHolder ID="cabeca" runat="server">
+            <h1>Portal de Contratos Arco-Mix</h1>
+
+            <div class="style1">
+                    <div class="direita">
+                         <asp:Image ID="Image1" runat="server" ImageUrl="~/imagens/logo-arcomix_fundoBranco.png" Height="78px" Width="128px"/>
+                    </div>
+
+                    <div class="esquerda">
+                       <nav>
+                            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                                <Items>
+                                    <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                                    <asp:MenuItem Text="Lançamentos" Value="Lançamentos"></asp:MenuItem>
+                                    <asp:MenuItem Text="Sair" Value="Sair"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>  
+                      </nav>
+                   </div>
+             </div>
+            </asp:ContentPlaceHolder>
+        </header>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
